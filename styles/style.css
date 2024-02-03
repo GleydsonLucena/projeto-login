@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Mobile first */
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+
+    --cor1: #5F2C82;
+    --cor2: #499F9D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font1);
+    font-size: 1em;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: var(--cor1);
+}
+
+main.container {
+    background: lightgreen;
+    margin: auto;
+    width: 90vw;
+    max-height: 300px;
+}
