@@ -10,32 +10,15 @@
 }
 
 @media screen and (min-width: 667px){
+
     body {
-        width: 100vw;
-        height: 100vh;
         background: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
-
-    main.container {
+    
+    .container {
         display: flex;
         flex-direction: row;
         max-width: 500px;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.685);
     }
     
-    section.img-capa {
-
-        width: 800px;
-        
-    }
-    
-    section.img-capa img {
-       
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    section.login {
-        padding: 10px;
-        
-    }
 }
