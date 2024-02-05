@@ -50,3 +50,51 @@ section.img-capa img {
     height: 100%;
     border-radius: 20px 20px 0px 0px;
 }
+
+section.login {
+    padding: 10px;
+    
+}
+
+section.login h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+section.login p {
+    font-size: 0.8em;
+}
+
+section.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: lightpink;
+    width: 100%;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3px;
+    background: var(--cor1);
+    border-radius: 5px;
+}
+
+.txt-caixas {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+form span {
+    color: white;
+}
+
+form .material-symbols-outlined {
+    font-size: 40px;
+}
+
+form
