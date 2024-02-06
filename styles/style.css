@@ -43,20 +43,14 @@ main.container {
 }
 
 section.img-capa {
+    display: block;
     background: var(--cor1) url(../image/imagem-login.jpg) no-repeat;
     background-size: cover;
-
-
     height: 40%;
 }
 
-section.img-capa img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
 section.login {
+    display: block;
     padding: 10px;
     
 }
