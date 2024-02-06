@@ -11,18 +11,46 @@
 
 @media screen  and (min-width: 768px) and (max-width: 992px) {
 
+
     body {
         background: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
-    main {
-        width: 90vw;
+
+    #login {
+        width: 80vw;
     }
 
-    .login {
-        width: 90vw;
+    #imagem {
+        width: 40%;
+        height: 100%;
+        float: left;
     }
 
-    .img-capa {
-        width: 90vw;
+    #fomrulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    }
+
+
+    #login {
+        width: 930px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 50%;
     }
 }
