@@ -30,6 +30,16 @@
         float: right;
         width: 60%;
     }
+
+    #formulario h1 {
+        font-size: 1.5em;
+    }
+
+    #formulario p {
+        font-size: 1em;
+
+        
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -50,7 +60,15 @@
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario h1 {
+        font-size: 2em;
+    }
+
+    #formulario p {
+        font-size: 1.2em;
     }
 }
