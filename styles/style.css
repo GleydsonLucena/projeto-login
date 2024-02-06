@@ -69,14 +69,29 @@ body {
     display: block;
     height: 40px;
     background: var(--cor1);
+    border: 2px solid  var(--cor1);
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 .campo .material-symbols-outlined {
     color: white;
-    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.caixa {
+    text-align: center;
+    background-color: #94cfcd;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 44px);
+    border: none;
+    border-radius: 8px;
+    transform: translate(24%, -118%)
+
 }
 
 form label {

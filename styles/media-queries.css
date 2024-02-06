@@ -18,6 +18,7 @@
 
     #login {
         width: 80vw;
+        height: 320px;
     }
 
     #imagem {
@@ -37,7 +38,19 @@
 
     #formulario p {
         font-size: 1em;
+        margin: 10px 0px;
         
+    }
+
+    .caixa {
+        background-color: #94cfcd;
+        font-size: 1em;
+        height: 100%;
+        width: calc(100% - 44px);
+        border: none;
+        border-radius: 8px;
+        transform: translate(13%, -118%)
+    
     }
 }
 
@@ -50,6 +63,8 @@
 
     #login {
         width: 930px;
+        height: 350px;
+
     }
 
     #imagem {
@@ -69,5 +84,17 @@
 
     #formulario p {
         font-size: 1.2em;
+        margin: 10px 0px;
+    }
+
+    .caixa {
+        background-color: #94cfcd;
+        font-size: 1em;
+        height: 100%;
+        width: calc(100% - 44px);
+        border: none;
+        border-radius: 8px;
+        transform: translate(11%, -118%)
+    
     }
 }
