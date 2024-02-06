@@ -26,7 +26,7 @@
         float: left;
     }
 
-    #fomrulario {
+    #formulario {
         float: right;
         width: 60%;
     }
@@ -37,7 +37,6 @@
 
     #formulario p {
         font-size: 1em;
-
         
     }
 }
