@@ -37,7 +37,6 @@ main.container {
     width: 311px;
     background: white;
     border-radius: 20px;
-    max-width: 280px;
     height: 500px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.485);
 }
@@ -55,7 +54,7 @@ section.login {
     
 }
 
-section.login h1 {
+/* section.login h1 {
     text-align: center;
     margin-bottom: 10px;
     font-size: 1.3em;
@@ -122,4 +121,4 @@ form .botao {
 #btn-2:hover {
     background-color: rgb(38, 224, 215);
     color: #246e6d;
-}
+} */

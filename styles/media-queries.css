@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Media Query */
+
+:root {
+    --font1: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --cor1: #5F2C82;
+    --cor2: #499F9D;
+}
+
+@media screen  and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    }
+    main {
+        width: 90vw;
+    }
+
+    .login {
+        width: 90vw;
+    }
+
+    .img-capa {
+        width: 90vw;
+    }
+}
