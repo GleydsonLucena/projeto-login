@@ -9,16 +9,13 @@
     --cor2: #499F9D;
 }
 
-@media screen and (min-width: 667px){
+@media screen and (min-width: 720px) and (max-width: 992) {
 
     body {
         background: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
-    
-    .container {
-        display: flex;
-        flex-direction: row;
-        max-width: 500px;
+
+    main.container {
+        width: 90vw;
     }
-    
 }
