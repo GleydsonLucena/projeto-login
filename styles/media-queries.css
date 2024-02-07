@@ -46,10 +46,9 @@
         background-color: #94cfcd;
         font-size: 1em;
         height: 100%;
-        width: calc(100% - 44px);
+        width: 87%;
         border: none;
         border-radius: 8px;
-        transform: translate(13%, -118%)
     
     }
 }
@@ -90,11 +89,10 @@
     .caixa {
         background-color: #94cfcd;
         font-size: 1em;
+        width: 87%;
         height: 100%;
-        width: calc(100% - 44px);
         border: none;
         border-radius: 8px;
-        transform: translate(11%, -118%)
     
     }
 }
